@@ -23,7 +23,7 @@ jobs:
           user: andyrak
           template: classic
           filename: github-metrics.svg
-          base: header, activity, community, repositories, metadata
+          base: activity, community, repositories
           config_timezone: Americas/Los_Angeles
           plugin_achievements: yes
           plugin_achievements_display: detailed
