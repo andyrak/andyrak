@@ -10,14 +10,14 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: lowlighter/metrics@latest
+      - uses: gh-metrics/metrics@latest
         with:
           user: andyrak
           template: terminal
           filename: metrics.terminal.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: header, metadata
-      - uses: lowlighter/metrics@latest
+      - uses: gh-metrics/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: andyrak
