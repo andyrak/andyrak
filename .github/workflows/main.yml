@@ -17,7 +17,7 @@ jobs:
           filename: metrics.terminal.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: header, metadata
-      - uses: lowlighter/metrics@latest
+      - uses: dkhokhlov/metrics@master
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: andyrak
@@ -36,7 +36,7 @@ jobs:
           plugin_habits_charts_type: classic
           plugin_habits_days: 14
           plugin_habits_facts: yes
-          plugin_habits_from: 100
+          plugin_habits_from: 200
           plugin_habits_languages_limit: 8
           plugin_habits_languages_threshold: 0%
           plugin_isocalendar: yes
